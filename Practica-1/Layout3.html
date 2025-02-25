@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Tres Columnas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            background: #444;
+            color: white;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        main {
+            width: 60%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">Sidebar Izquierda</div>
+    <main>Contenido Principal</main>
+    <div class="sidebar">Sidebar Derecha</div>
+</body>
+</html>
