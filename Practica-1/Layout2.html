@@ -12,23 +12,36 @@
         }
         body {
             font-family: Arial, sans-serif;
+            background: #f4f4f4;
             display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            min-height: 500px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
         aside {
-            width: 25%;
-            background: #555;
+            width: 30%;
+            background: #444;
             color: white;
-            padding: 20px;
-            min-height: 100vh;
+            padding: 40px;
         }
         main {
-            width: 75%;
-            padding: 20px;
+            width: 70%;
+            padding: 40px;
         }
     </style>
 </head>
 <body>
-    <aside>Barra Lateral</aside>
-    <main>Contenido Principal</main>
+    <div class="container">
+        <aside>Barra Lateral</aside>
+        <main>Contenido Principal</main>
+    </div>
 </body>
 </html>

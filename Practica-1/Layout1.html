@@ -12,6 +12,17 @@
         }
         body {
             font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            background: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
         }
         header, footer {
             background: #333;
@@ -20,15 +31,17 @@
             padding: 20px;
         }
         main {
-            padding: 20px;
+            padding: 40px;
             text-align: center;
-            height: 1000;4
         }
     </style>
 </head>
 <body>
-    <header>Encabezado</header>
-    <main>Contenido Principal</main>
-    <footer>Pie de Página</footer>
+    <div class="container">
+        <header>Encabezado</header>
+        <main>Contenido Principal</main>
+        <footer>Pie de Página</footer>
+    </div>
 </body>
 </html>
+
